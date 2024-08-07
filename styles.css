@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+body {
+  font-family: Poppins, sans-serif;
+  background-image: url(./images/1.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 26%;
+  background-color: rgb(127, 100, 0);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  margin-top: 3rem;
+}
+
+#description {
+  text-align: center;
+  font-size: 1.125rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+#survey-form {
+  margin: 2rem auto;
+  max-width: 45rem;
+  padding: 2.5rem;
+  border-radius: 0.25rem;
+  background-color: darkslategray;
+}
+
+.box {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+#name-label,
+#email-label,
+#number-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  color: white;
+}
+
+#name,
+#email,
+#number {
+  display: block;
+  width: 100%;
+  padding: 0;
+  height: 2.375rem;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+}
