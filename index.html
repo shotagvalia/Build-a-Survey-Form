@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-    <!-- <link rel="stylesheet" href="./reset.css" /> -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1 id="title">Please fulfill this Survey Form</h1>
+    <h1 id="title">Please Fulfill This Survey Form</h1>
     <p id="description">Thank you for taking the time to fulfill this form</p>
     <form id="survey-form" action="">
       <div class="box">
@@ -46,7 +45,7 @@
       <label
         >Select Your Favorite Avenger From The Marvel Universe
         <select name="" id="dropdown">
-          <option value="1">All</option>
+          <option value="1">Select Avenger</option>
           <option value="2">Spider-Man</option>
           <option value="3">Iron Man</option>
           <option value="4">Thor</option>
@@ -55,45 +54,59 @@
         </select></label
       >
 
-      <p>Which Is The First Avenger In The Marvel Universe ?</p>
-      <input type="radio" name="radio" id="" value="1" checked />Iron Man
-      <input type="radio" name="radio" id="" value="2" />Capitan America
-      <input type="radio" name="radio" id="" value="3" />Thor
-      <input type="radio" name="radio" id="" value="4" />Natasha
+      <p class="choose">Which Was The First Avenger In The Marvel Universe ?</p>
+      <label for="iron"
+        ><input type="radio" name="radio" id="iron" value="1" checked />Iron
+        Man</label
+      >
+      <label for="captain"
+        ><input type="radio" name="radio" id="captain" value="1" />Capitan
+        America</label
+      >
+      <label for="thor"
+        ><input type="radio" name="radio" id="thor" value="1" />Thor</label
+      >
+      <label for="natasha"
+        ><input
+          type="radio"
+          name="radio"
+          id="natasha"
+          value="1"
+        />Natasha</label
+      >
 
-      <p>
-        Which Avengers Died After Avenger's EndGame Story ?
-        <label for="strange"
-          >Dr.Strange<input
-            type="checkbox"
-            name="strange"
-            id="strange"
-            value="1"
-        /></label>
-        <label for="panther"
-          >Black Panther<input
-            type="checkbox"
-            name="panther"
-            id="panther"
-            value="2"
-        /></label>
-        <label for="captain marvel"
-          >Captain Marvel<input
-            type="checkbox"
-            name="captain marvel"
-            id="captain marvel"
-            value="3"
-        /></label>
-        <label for="black widow"
-          >Black Widow<input
-            type="checkbox"
-            name="black widow"
-            id="black widow"
-            value="4"
-        /></label>
-      </p>
-      <label for="comment"
-        >Tell Us Story
+      <p class="choose">Which Avengers Died After Avenger's EndGame Story ?</p>
+      <label for="strange"
+        ><input
+          type="checkbox"
+          name="strange"
+          id="strange"
+          value="1"
+        />Dr.Strange</label
+      >
+      <label for="panther"
+        ><input type="checkbox" name="panther" id="panther" value="2" />Black
+        Panther</label
+      >
+      <label for="captain marvel"
+        ><input
+          type="checkbox"
+          name="captain marvel"
+          id="captain marvel"
+          value="3"
+        />Captain Marvel</label
+      >
+      <label for="black widow"
+        ><input
+          type="checkbox"
+          name="black widow"
+          id="black widow"
+          value="4"
+        />Black Widow</label
+      >
+
+      <p class="choose">Tell Us Story</p>
+      <label for="comment">
         <textarea
           id="comment"
           name="comment"
